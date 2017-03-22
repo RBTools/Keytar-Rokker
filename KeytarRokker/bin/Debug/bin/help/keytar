@@ -1,0 +1,98 @@
+Keytar Rokker: How to Use
+
+Keytar Rokker was created as a personal project to learn to parse Rock Band 3 keytar data and see what I could do with it. While the end result looks somewhat polished and dare I say, nice, don't expect too much from it. Enjoy it for what it is - another way to have fun with Rock Band equipment and custom songs
+
+As of this writing, Keytar Rokker can work with the following:
+- Xbox 360 Rock Band 3 keytar connected wirelessly to the Microsoft Xbox 360 for Windows adapter
+- MIDI keyboard or Xbox 360/PS3/Wii Rock Band 3 keytar connected via MIDI cable to a Xbox 360 MIDI Pro Adapter (MPA)
+
+If you can confirm it works with a different setup than what's above, I would love to hear about it!
+
+Of course, you can also use your mouse or your keyboard to play, see below for details
+
+
+HOW TO PLAY
+
+You have three ways to play...read on because different setups will behave slightly differently!
+
+1. Use your keytar/MIDI keyboard:
+
+Whether you're using a Xbox 360 keytar connected wirelessly, or a MIDI keyboard or keytar connected to the MPA, all 25 keys work as you're used to in-game. The Rock Band 3 keytars have velocity-sensitive keys and that data is used by Keytar Rokker to determine the volume at which that key's sound is played
+
+If you're using a Xbox 360 keytar connected wirelessly, the overdrive button on the keytar functions as a simulated sustain pedal. If you connect a sustain pedal or kick pedal to your keytar, it will function as a simulated sustain pedal. The Back button does the function of clicking on the Load button, so it'll prompt you to select a song to play (see below). The Start button will play/pause a song if you've loaded one already. The Left and Right buttons let you select a sound type (see below) and the Up and Down buttons let you change octaves (see below)
+
+The A, B, X and Y buttons on your keytar/MPA function as QuickAccess buttons to quickly change between preset sound types and octaves. Press any of the four buttons and Keytar Rokker immediately will change to that sound type and octave. To customize the sound type and octave assigned to each QuickAccess button, go to Options -> 'Customize QuickAccess buttons'
+
+If you're using a MIDI keyboard or a keytar connected via the MPA, note that only the 25 piano keys work. None of the other buttons as described above are sent over MIDI data to the MPA, and so the MPA doesn't send it to Keytar Rokker. You can, however, use all the buttons found on the MPA itself to do what is described above
+
+
+2. Use your mouse:
+
+You can click on any one key to play it. Press and hold the mouse button and slide left or right for a glissando effect. You can press the Space bar to simulate a sustain pedal, or you can click on the sustain pedal icon to force it down (click again to release). All other buttons can be clicked and are self explanatory (but also give you a tool tip hint when you hover in case you're confused). You can move forward and backward in time by using your mouse's scroll wheel
+
+3. Use your keyboard:
+
+All 25 keys have been given preset keyboard shortcuts that allow you to play the keytar as if you were using the real thing. To view keyboard shortcuts, go to Options -> 'Show keyboard shortcuts' - to customize the keyboard shortcuts to your liking, go to Options -> 'Customize keyboard shortcuts' and follow the instructions. Just like when using your mouse, you can press the Space bar to function as a sustain pedal, or you can click on the sustain pedal icon to force the pedal to stay on. You can use your mouse's scroll wheel to move forward and backward in time.
+
+
+PLAY ALONG MODE
+
+You can click on Options -> Play-along mode or press F5 or drag/drop a CON/LIVE file anywhere on Keytar Rokker and Play Along Mode will be enabled
+
+Once you've loaded a song that Keytar Rokker can play, it will tell you that it's ready - press Play and the audio will begin playing and the Expert chart will be displayed - keep in mind this is my best attempt at displaying the chart accurately, but it is NOT accurate enough to test songs with - continue to test in game!
+
+You can choose between Expert, Hard, Medium, Easy, Right Hand Animation and Left Hand Animation charts (if they are charted) by selecting from the chart selection dropdown - Keytar Rokker adjusts in real time and the correct chart is displayed without having to stop playback first. To enable this, see Options below
+
+You can change the height of note highway by clicking on the right bottom edge of Keytar Rokker and dragging up or down. Keytar Rokker will adjust the note highway accordingly and save this for future use.
+
+You can also modify the speed at which the notes are displayed. The default value is to display 1.0 seconds' worth of MIDI data. The higher the number, the slower the scroll speed, and vice versa. To modify this, click on the scroll wheel and move up or down to adjust accordingly (in real time). To enable this, see Options below
+
+
+OPTIONS
+
+Play-along mode - extends the form to allow you to play a Rock Band custom song (in CON/LIVE format) and play along to the MIDI chart
+Show range marker - shows the current range as determined by the last ranger shift marker in the MIDI chart - this is ignored when displaying Right Hand Animation or Left Hand Animation charts
+Silence keys track - if the song you're playing along to has multitracked audio, this will disable the original keys so you only hear your own playing
+AutoPlay with chart - when enabled, Keytar Rokker plays the chart being displayed - keep in mind that while the playback will match the chart, that doesn't always mean it matches the audio, since game charts sometimes are adjusted or 'fudged' to fit the game's limitations
+Show scroll speed control - displays the scroll wheel that controls how fast the notes are drawn on the screen
+Show chart selection - displays a dropdown selection of the different charts available to play for the song loaded
+
+
+VOLUME LEVELS
+
+You can control the volume level of the song you're playing along to by clicking on the volume knob on the far right of the screen. You can also temporarily mute the track by clicking on the volume button next to the first LCD panel
+
+
+SOUNDS AND OCTAVES
+
+Keytar Rokker includes real piano samples from a Steinway & Sons model B grand piano (for all 88 keys) as well as 40 different MIDI sounds to choose from. To change the current sound that Keytar Rokker should use, just click the up or down buttons on the left of the second LCD panel. You can also change this by using the Left and Right buttons on your keytar (if connected wirelessly) or MPA (if connected via MIDI).
+
+By design, the keytar can only play 25 keys at a time. Keytar Rokker allows you to move up and down the keyboard to encompass all octaves present in a 88 key piano, with the lowest possible key being C1 and the highest C8. Note that due to the keytar's design, A0, A#0 and B0 are not playable in any octave configuration. To change octaves, just click on the up or down buttons on the right of the second LCD panel. You can also change this by using the Up and Down buttons on your keytar (if connected wirelessly) or MPA (if connected via MIDI).
+
+
+CUSTOMIZING KEYTAR ROKKER
+
+Virtually everything that Keytar Rokker uses is contained in the /res folder - you can replace any or all of the default images with your own, but make sure to keep the same file name, format and dimensions
+
+You can change the range marker color by going to Options -> 'Show range marker' ->  'Change marker color' - your custom color will be saved for future use
+
+You can click on the lightbulb button next to the first LCD panel to change the LCD panels' backlight from the 8 preset values and your selection will be saved for future use. You can also customize these 8 preset values by editing the keytar.config file that is created after the first use. Colors must be saved in hex format, including alpha value (#AARRGGBB)
+
+Each key displays a preset color based on its color range when played (i.e. keys in the red range show a translucent red color). You can customize these colors by editing the values in the keytar.config file that is created after the first use. Colors must be saved in hex format, including alpha value (#AARRGGBB) - if you don't want anything to show when you press a key, you can change that color to #00000000, for example
+
+If you wish to replace or modify the piano samples, you can do that by editing or replacing the audio files in the /samples/ folder - Keytar Rokker will first search for a .ogg file, then a .wav file for each of the 88 keys - they are labeled in the order in which they are found in a keyboard, with A0 being 0 and C8 being 87. While WAV files are supported, 88 keys in WAV format is in the hundreds of megabytes - for better performance I suggest using OGG files (the ones provided use Quality 5 and sound great I think)
+
+
+THE SUSTAIN PEDAL - YOUR LIFELINE
+
+There's a lot going on - you're playing with a variety of keyboards, your mouse, AutoPlay might be enabled, you're switching audio types and charts on the fly - something is bound to go wrong. When it does, no fear, just click on the sustain pedal icon on the far right of the keyboard - disabling the sustain pedal cancels out any pending audio samples, key presses, etc - so if something's going wrong, use the sustain pedal to rectify things and continue enjoying Keytar Rokker
+
+
+FINALLY,
+
+If you minimize Keytar Rokker, it'll go into your system tray and can stay there waiting for input from your keytar - meaning you don't have to be looking at Keytar Rokker for it to play your keytar sounds - go nuts!
+
+
+And once again, this is for fun - I don't doubt there's some latency issues, and the feature set is limited - but it's just a fun little thing - don't expect too much!
+
+Enjoy

@@ -1,0 +1,28 @@
+Keytar Rokker
+Created by TrojanNemo, dedicated to the C3 Community
+For instructions on how to use, click on Help -> How to Use
+
+-------------------
+
+CHANGE LOG:
+
+v1.2.0
+- Improved extracting and reading of DTA and MOGG files for increased speed and reduced hard drive usage - thanks to Maxton for the suggestion and code sample
+
+----------
+
+v1.1.0
+- Added QuickAccess buttons (A, B, X and Y keytar/MPA buttons) to quickly change between four preset sound types and octaves - to customize the sounds, click on Options -> 'Customize QuickAccess buttons' and follow instructions
+- Added ability to resize the program to make the note highway shorter or taller, just drag the edges of Keytar Rokker to resize to your taste - don't forget to adjust the scroll speed accordingly
+- Added ability to play the keytar using your keyboard - either use the preset keys (Options -> 'Show keyboard shortcuts') or customize the shortcuts to your liking (Options -> 'Customize keyboard shortcuts')
+- A few other minor changes and tweaks
+
+----------
+
+v1.0.1
+- Corrected pitches for Real Piano that were off 3 semitones
+
+----------
+
+v1.0.0 - Initial public release
+- See Help document for a list of features and how to use them

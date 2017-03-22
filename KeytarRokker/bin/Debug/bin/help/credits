@@ -1,0 +1,17 @@
+CREDITS:
+DJ Shepherd for the X360 library
+raynebc for all the assistance with MIDI files
+Mark Heath for the NAudio.MIDI library:
+http://naudio.codeplex.com/
+Ian Luck for the BASS audio library:
+http://www.un4seen.com/
+Bernd Niedergesaess for the BASS.NET API:
+http://bass.radio42.com/
+The SlimDX Group for the SlimDX library:
+http://www.slimdx.org/
+David for the keytar input help:
+http://www.dwsk.co.uk/
+Stephen Toub for the MidiPlayer library:
+http://blogs.msdn.com/b/toub/
+University of Iowa for the piano samples:
+http://theremin.music.uiowa.edu/MISpiano.html
